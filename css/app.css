@@ -1,0 +1,39 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+h2 {
+  display: none;
+}
+
+.board-container {
+  display: inline-block;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+.again {
+  display: none;
+  border: white 1px solid;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  padding: 7px 15px;
+}
